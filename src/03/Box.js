@@ -1,5 +1,6 @@
 import './Box.css';
-import BoxRows from "./BoxRows";
+// import BoxRows from "./BoxRows";
+import BoxRows1 from './BoxRows1';
 
 const Box = () => {
 
@@ -217,12 +218,15 @@ const Box = () => {
                             <th scope="col">순위</th>
                             <th scope="col">영화명</th>
                             <th scope="col">매출액</th>
-                            <th scope="col">증감</th>                          
+                            <th scope="col">증감</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <BoxRows mv={mvlist}/>
-                    </tbody>                    
+                        <BoxRows1 mv={mvlist} />
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
                 </table>
             </article>
         </main>
