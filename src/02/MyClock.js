@@ -1,4 +1,4 @@
-import MyClockTime from "./MyClockTime1";
+// import MyClockTime from "./MyClockTime";
 import MyClockImg from "./MyClockImg";
 import MyClockTime1 from "./MyClockTime1";
 

@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+tfoot {
+    background-color:cornflowerblue;
+    color: aliceblue;
+}
+
+#trfoot {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.tempsp {
+    display: inline-flex;
+
+}

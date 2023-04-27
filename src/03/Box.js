@@ -220,10 +220,8 @@ const Box = () => {
                             <th scope="col">매출액</th>
                             <th scope="col">증감</th>
                         </tr>
-                    </thead>
-                    <tbody>
-                        <BoxRows1 mv={mvlist} />
-                    </tbody>
+                    </thead>                    
+                        <BoxRows1 mv={mvlist} />                     
                     <tfoot>
 
                     </tfoot>
