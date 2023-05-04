@@ -1,0 +1,40 @@
+.bt {
+    display: inline-flex;    
+    height: 50px;
+    align-items: center;
+    background-color: rgb(247, 165, 13);
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.bt1 {
+    display: inline-flex;    
+    height: 50px;
+    align-items: center;
+    background-color: rgb(241, 193, 104);
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.bt2 {
+    display: inline-flex;    
+    height: 50px;
+    align-items: center;
+    background-color: rgb(241, 193, 104);
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.bt:hover {
+    background-color: rgb(241, 193, 104);
+    color: white;
+}
