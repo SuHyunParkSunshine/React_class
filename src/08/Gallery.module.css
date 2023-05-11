@@ -7,3 +7,26 @@
 .btDiv > button {
     margin-left: 5px;
 }
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head > h2 {
+    margin: 10px;
+}
+
+.head > p {
+    margin: 10px;
+}
+
+.kword {
+    display: inline-flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(38, 30, 148);
+    color: aliceblue;
+}

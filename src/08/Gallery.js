@@ -55,7 +55,7 @@ const Gallery = () => {
     }
 
     return (
-        <main>
+        <main className='container'>
             <article>
                 <header>
                     <h1>한국관광공사_관광사진 정보</h1>
