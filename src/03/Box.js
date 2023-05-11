@@ -42,7 +42,7 @@ const Box = () => {
 
     }
 
-    //데이터 가져오기
+    //데이터 가져오기(fetch)
     const getData = (sd) => {
 
         let url = 'http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=f5eef3421c602c6cb7ea224104795888&targetDt=';
