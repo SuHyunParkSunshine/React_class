@@ -1,0 +1,34 @@
+@media only screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      --primary: #ac34d1;
+      --primary-hover: #9c27b0;
+      --primary-focus: rgba(142, 36, 170, 0.25);
+      --primary-inverse: #FFF;
+    }
+  }
+  
+  @keyframes blink-effect {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .short {
+    /* background-color: #ff47d2; */
+    color: #e6ff3d ;
+    text-align: left;
+    animation: blink-effect 2s step-end infinite;
+  }
+  .dts {
+    text-align: right;
+  }
+  .slist {
+    color: rgb(226, 154, 255);
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .std {
+    text-align: center;
+    font-size: 18px;
+  }

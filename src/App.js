@@ -10,7 +10,8 @@ import './App.css';
 // import Gallery from './08/Gallery';
 // import Gallery_1 from './08_1/Gallery_1';
 // import RouteMain from './09/RouteMain';
-import Fcst from './10/Fcst';
+// import Fcst from './10/Fcst';
+import Fcst from './11/Fcst';
 
 
 //사용자 정의 태그!! 앞 첫 글자 대문자 <App /> 반드시 return이 있는 함수를 만들어야 함, 이때까지 배운 태그들은 소문자로 적어줘야댄다.
@@ -26,6 +27,7 @@ function App() {
     // <Gallery />
     // <Gallery_1 />
     // <RouteMain />
+    // <Fcst />
     <Fcst />
   );
 }
