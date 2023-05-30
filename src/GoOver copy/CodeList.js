@@ -1,14 +1,12 @@
 import code from '../10/getcode.json';
-import { useRecoilValue } from 'recoil';
-import { CodeAtoms } from './CodeAtoms';
+import { useState, useEffect } from 'react';
 
 //probs(오브젝트 전체)로 넘기는 방법(probs.sell => value)
 //const CodeList = (probs) => {
 //console.log('probs value', probs.sell)
 
 //오브젝트의 키값으로 바로 받아오는 방법
-const CodeList = () => {
-    const sell= useRecoilValue(CodeAtoms);
+const CodeList = ({ sell }) => {
     //console.log('code', code)
     // => return이 오는데 생략가능
     let temp = code.filter((i) => i["예보구분"] === sell);

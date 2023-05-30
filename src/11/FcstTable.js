@@ -71,7 +71,6 @@ const FcstTable = ({ items, gubun }) => {
                             <th scope="col" className = {style.slist}>예측일자</th>
                             <th scope="col" className = {style.slist}>예측시간</th>
                             <th scope="col" className = {style.slist}>예보 값</th>
-
                         </tr>
                         {items && trTags}
                     </thead>
